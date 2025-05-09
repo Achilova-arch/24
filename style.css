@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    background-color: #F3D7B7;
+    padding: 22px 0;
+}
+header .container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.hero-text h1{
+font-weight: 700;
+font-size: 64px;
+line-height: 100%;
+color: #000000;
+margin-top: 176px;
+margin-bottom: 30px;
+}
+.hero{
+    padding: 100px 0;
+    background-color: #F3D7B7;
+    height: 610px;
+}
+.hero .contaner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+.hero-text p{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 30px;
+}
+.hero-text{
+    width: 484px;
+    padding-left: 50px;
+}
+.hero-btn{
+    padding: 16px 24px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #0A775F;
+}
+.hero-img{
+    width: 610px;
+position: relative;
+}
+.img-katta{
+    width: 610px;
+}
+.img-kichkina{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    animation-name: aylan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes aylan{
+   from{
+    transform: rotate(0deg);
+   }
+   to{
+    transform: rotate(360deg);
+   }
+}
+.h2{
+font-weight: 500;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0px;
+font-variant: small-caps;
+color: #333333;
+margin-bottom: 10px;
+}
+.-textprodukt p{
+    color: #333333;
+}
+.produkt{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+margin-left: 50px;
+margin-right: 50px;
+}
+.pi:hover{
+    font-size: 30px;
+}
+footer{
+    width: 1440px;
+    height: 160px;
+    background-color: #F3D7B7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .text{
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 1px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.img-fot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
